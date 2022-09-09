@@ -1,0 +1,31 @@
+html {
+height:100vh;
+}
+
+body{
+ height:auto;
+ font-family:'Courier New', Courier, monospace;
+ background: linear-gradient(0deg, rgba(102, 210, 187, 0.974) 40%, #e3b4da 100%);
+}
+
+header{
+background-color:rgb(160, 221, 168);
+
+}
+
+img{
+width:10em;
+}
+
+
+article{
+background-color:bisque;
+}
+
+
+footer{
+font-family:Arial, Helvetica, sans-serif;
+font-size:small;
+font-style:italic;
+background-color:aquamarine;
+}
