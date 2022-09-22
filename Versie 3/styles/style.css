@@ -4,28 +4,62 @@ height:100vh;
 
 body{
  height:auto;
- font-family:'Courier New', Courier, monospace;
- background: linear-gradient(0deg, rgba(102, 210, 187, 0.974) 40%, #e3b4da 100%);
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-header{
-background-color:rgb(160, 221, 168);
+header {
+padding:10em;
+background-image: url(../Sunset.jpg) ;
+background-size: cover;
+background-position: center;
+}
+
+#pf-tessaviergever {
+    opacity: 0.9;
+    content: center;
+    max-width: 100%;
+    height: auto;
+    margin: center;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    border-radius: 50%;
+    box-shadow: 0px -4px 5px 0px rgba(0, 0, 0, 0.6);
+   
 
 }
 
-img{
-width:10em;
+h1 {
+font-size:1.5em;
+color: rgb(225, 238, 249);
+text-shadow: 2px 2px #ff9900, 2px 5px #e2516e;
+background-color: rgb(106, 158, 180);
+opacity: 0.9;
+box-shadow: 0px -4px 5px 0px rgba(0, 0, 0, 0.6);
+text-align: center;
+margin: center;
+padding-top: 40px;
+padding-bottom: 50px;
+border-radius: 45%;
 }
 
 
-article{
+article {
 background-color:bisque;
+box-shadow: 0px -4px 5px 0px rgba(0, 0, 0, 0.6);
 }
 
+#article-overmij {
+background: blue;
+box-shadow: 0px -4px 5px 0px rgba(0, 0, 0, 0.6);
+}
 
-footer{
+footer {
+padding:15px;
 font-family:Arial, Helvetica, sans-serif;
 font-size:small;
 font-style:italic;
-background-color:aquamarine;
+background-color:rgba(246, 156, 21, 0.542);
+margin-top: 6px;
 }
